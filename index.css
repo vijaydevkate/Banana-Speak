@@ -3,21 +3,41 @@ body {
   text-align: center;
 }
 
+.container{
+    /* border: 2px solid red; */
+    height: 10vh;
+    background-color: yellow;
+    
+    
+}
+
+.container h1{
+    padding-top: 1rem;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 textarea {
+  padding-bottom: 1px;
   width: 80%;
-  height: vh;
+  height: 5vh;
   display: block;
-  margin: 1rem;
-  padding: 5rem;
+  margin: 5rem;
+  padding: 4rem;
   justify-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #output {
   border: 1px solid black;
   height: 10vh;
   width: 80%;
-  margin: 1rem;
+  margin: 5rem;
   padding: 1rem;
+  padding-bottom: 5rem;
 }
 
 #btn-translate {
@@ -25,6 +45,9 @@ textarea {
   justify-content: center;
   font-size: larger;
   padding: 1rem 2rem;
-  border-radius: 5px;
-  cursor: auto;
+  border-radius: 15px;
+  cursor: pointer;
 }
+
+
+
